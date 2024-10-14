@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECHELON - Sistema de Proyectos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="icon" href="lib/img/favicon.png">
+</head>
+<body>
+
+    <header>
+        <div class="container"> <h1>ECHELON - Sistema de Proyectos</h1>
+            <p class="text-left">Optimiza la gestión y supervisión de tus proyectos con eficiencia y efectividad.</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="presentacion"> <div class="container">
+            <p style="align-content: center;"><img src="lib/img/echelon_logo.jpeg" style="height: 150px; width: 150px; " alt="ECHELON"></p>                
+                <p>Bienvenido a SISEC, una herramienta robusta para la gestión integral de proyectos.</p>
+                <ul class="funcionalidades">
+                    <li><strong>Gestión Integral de Proyectos</strong></li>
+                    <li><strong>Asignación Óptima de Recursos</strong></li>
+                    <li><strong>Seguimiento Detallado del Progreso</strong></li>
+                    <li><strong>Interfaz Intuitiva y Fácil de Usar</strong></li>
+                </ul>
+                
+        </section>
+
+        <section class="mision-vision"> <div class="container">
+                <h2>Misión</h2>
+                <p>Nuestra misión es proporcionar una herramienta robusta que apoye a las organizaciones en la planificación, ejecución y finalización exitosa de sus proyectos, contribuyendo a la mejora continua y a la consecución de objetivos estratégicos.</p>
+
+                <h2>Visión</h2>
+                <p>Ser el sistema de referencia en la gestión de proyectos, reconocido por su innovación, facilidad de uso y capacidad para impulsar el éxito organizacional.</p>
+            </div>
+        </section>
+
+        <section class="modulos"> <div class="container">
+                <h2>Módulos Principales</h2>
+                <ul>
+                    <li><strong>Personas:</strong> Gestiona la información de los involucrados en tus proyectos.</li>
+                    <li><strong>Usuarios:</strong> Administra las cuentas de acceso y controla la actividad para garantizar la seguridad.</li>
+					<li><strong>Niveles:</strong> Organiza y administra diferentes niveles dentro de tu organización, tales como administración, recursos humanos (RRHH), y otros departamentos específicos. Esto permite una estructura clara y jerárquica, facilitando la gestión y asignación de tareas y responsabilidades..</li>
+					<li><strong>Empresas:</strong> Gestiona la información detallada de las empresas con las que colaboras. Incluye datos como nombre, tipo, dirección, ciudad, provincia, país, email, teléfono, celular, sitio web y otros detalles relevantes. Esta función permite un seguimiento detallado de todas las interacciones y colaboraciones empresariales.</li>
+					<li><strong>Clientes:</strong> Administra los datos de tus clientes, incluyendo información de contacto, historial de compras, preferencias y necesidades específicas. Esto facilita la creación de estrategias personalizadas para mejorar la satisfacción y fidelidad del cliente.</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="contacto"> <div class="container">
+                <h2>Información de Contacto</h2>
+                <p>Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos.</p>
+                <ul class="datos-contacto">
+                    <li><i class="fa fa-envelope"></i> Correo Electrónico: favian.medina.gemio@gmail.com</li>
+                    <li><i class="fa fa-linkedin"></i> LinkedIn: linkedin.com/in/favian-medina-35a5471a4/</li>
+                    <li><i class="fa fa-phone"></i> Teléfono: +591 6702-3053</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Favian Medina</p>
+        </div>
+    </footer>
+    <div align="right">
+        <button type="button" id="prin_button" data-toggle="modal" data-target="#userModal" class="btn btn-primary ">Principal</button>
+    </div>
+        <script type="text/javascript" language="javascript" >
+            $(document).ready(function(){ 
+            
+                $('#prin_button').click(function(){
+                    window.location.href = 'index.html';
+                });
+            });            
+        </script>
+</html>
